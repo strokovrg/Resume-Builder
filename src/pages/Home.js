@@ -62,11 +62,8 @@ function BOX() {
                         <p1 className='p1'>
                           {name}
                         </p1>
-                        <p2 lassName='p2'>
-                          <label>
-                            <input type="text" name="name" />
-                          </label>
-                          <input type="submit" value="Отправить" />
+                        <p2 inputName='p2'>
+                          <input name="firstName[0].string" placeholder="Имя" type="text" class="bloko-input bloko-input_name" value=""></input>
                         </p2>
                       </li>
                     )}

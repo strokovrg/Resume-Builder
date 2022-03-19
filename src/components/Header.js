@@ -7,6 +7,7 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import Contacts from '../pages/Contacts';
 import Profile from '../pages/Profile';
+import Login from '../pages/Login';
 
 
 export default class Header extends Component {
@@ -31,6 +32,7 @@ export default class Header extends Component {
                                 <Nav.Link href='/about'> About us </Nav.Link>
                                 <Nav.Link href='/contacts'> Contacts </Nav.Link>
                                 <Nav.Link href='/profile'> Profile </Nav.Link>
+                                <Nav.Link href='/login'> Login </Nav.Link>
                             </Nav>
                             <Form inline="true" className="d-flex">
                                 <FormControl
@@ -51,6 +53,7 @@ export default class Header extends Component {
                         <Route exact path="/About" element={<About />} />
                         <Route exact path="/Contacts" element={<Contacts />} />
                         <Route exact path="/Profile" element={<Profile />} />
+                        <Route exact path="/Login" element={<Login />} />
                     </Routes>
                 </Router>
             </>
